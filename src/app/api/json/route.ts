@@ -42,13 +42,8 @@ const jsonSchemaToZod = (schema: any): any => {
 };
 
 export const POST = async (req: NextRequest) => {
-  //   const body = await req.json();
-  const body = {
-    data: "My name is John",
-    format: {
-      name: { type: "string" },
-    },
-  };
+  const body = await req.json();
+
   //data; format
   const genericSchema = z.object({
     data: z.string(),
