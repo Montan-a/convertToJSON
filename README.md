@@ -14,8 +14,8 @@ and the
 
 The api POST function takes a request body.
 
-_Formats_ the request into **JSON**
+_Formats_: the request into **JSON**
 
-_Checks_ the `type` of the data in the request. If the `type` is unable to be determined `null` will be returned.
+_Checks_: the `type` of the data in the request. If the `type` is unable to be determined `null` will be returned.
 
-_Returns_ the input in JSON format.
+_Returns_: the input in JSON format.
