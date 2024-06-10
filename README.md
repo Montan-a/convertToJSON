@@ -2,14 +2,8 @@
 
 This project uses:
 
-```
-Nextjs
-```
+`Nextjs`
 
-```
-Zod
-```
+`Zod`
 
-```
-OpenAI
-```
+`OpenAI`
